@@ -8,7 +8,7 @@ const minuteOfDay = 00;
 
 // Only change below this line
 
-if (hourOfDay !== undefined && minuteOfDay !== undefined && hourOfDay === 0 && minuteOfDay === 0) {
+if (hourOfDay === 0 && minuteOfDay === 0) {
 	const taxAsDecimal = parseFloat(tax) / 100;
 	const startingAfterTax = salary * (1 - taxAsDecimal);
 	const balance = startingAfterTax - transport - food - rent;
